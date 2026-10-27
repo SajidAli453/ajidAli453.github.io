@@ -8,6 +8,13 @@ nav{display:flex;flex-wrap:wrap;gap:1.1rem;max-width:1280px;margin:0 auto;align-
 nav a{font-weight:700;padding:.35rem .6rem;border-radius:999px}
 nav a.logo{display:flex;align-items:center;gap:.5rem;padding-left:0;flex:none}
 .nav-links{display:flex;flex-wrap:wrap;gap:1.1rem;justify-content:center;flex:1;align-items:center}
+.more-tools{display:none;position:relative}
+.more-tools summary{list-style:none;cursor:pointer;font-weight:700;padding:.35rem .6rem;border-radius:999px;color:#fff}
+.more-tools summary::-webkit-details-marker{display:none}
+.more-menu{display:none;position:absolute;top:2.2rem;left:0;min-width:170px;background:#fff;border:1px solid #e0e7ff;border-radius:12px;box-shadow:0 12px 28px rgba(30,27,75,.20);padding:.5rem;z-index:20}
+.more-tools[open] .more-menu{display:block}
+.more-menu a{display:block;color:#4338ca !important;padding:.5rem .8rem;border-radius:8px}
+.more-menu a:hover{background:#eef2ff}
 nav a.logo img{width:36px;height:36px;border-radius:9px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
 nav a:first-child{font-size:1.15rem;letter-spacing:-.02em}
 nav a:hover{background:rgba(255,255,255,.18)}
@@ -63,4 +70,4 @@ footer p:last-child{color:#64748b;font-size:.9rem}
 .calc-grid button{margin:0;border-radius:12px}
 .display{font-size:1.5rem;text-align:right;background:#0f172a;color:#fff;padding:.8rem;border:1px solid #0f172a;border-radius:12px;min-height:3rem;overflow-x:auto}
 @media(max-width:600px){.calc-grid{grid-template-columns:repeat(4,1fr)}main{padding:1.25rem;margin:1rem}h1{font-size:1.7rem}}
-@media(max-width:700px){nav{flex-direction:column;align-items:flex-start;gap:.75rem}nav a.logo{padding:.25rem 0}.nav-links{flex:none;width:100%;justify-content:flex-start;gap:.5rem .9rem}nav a{padding:.3rem .5rem}footer{padding:1.5rem .75rem 2rem}footer a{padding:.35rem .75rem;font-size:.9rem}footer p:last-child{font-size:.85rem;line-height:1.5}}
+@media(max-width:700px){nav{flex-direction:column;align-items:flex-start;gap:.75rem}nav a.logo{padding:.25rem 0}.nav-links{flex:none;width:100%;justify-content:flex-start;gap:.5rem .9rem}nav a{padding:.3rem .5rem}.nav-links > a:nth-child(n+5){display:none}.more-tools{display:block}footer{padding:1.5rem .75rem 2rem}footer a{padding:.35rem .75rem;font-size:.9rem}footer p:last-child{font-size:.85rem;line-height:1.5}}
