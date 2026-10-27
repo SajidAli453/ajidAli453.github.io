@@ -49,8 +49,12 @@ button{background:linear-gradient(120deg,#4f46e5,#06b6d4);color:#fff;border:0;pa
 button:hover{filter:brightness(1.08)}
 .result{margin-top:1rem;padding:1rem 1.2rem;background:#dcfce7;border:1px solid #86efac;border-radius:12px;font-weight:700;color:#14532d;white-space:pre-wrap}
 .adslot{border:1.5px dashed #94a3b8;padding:.9rem;text-align:center;color:#64748b;margin:1.5rem 0;border-radius:12px;background:#f8fafc}
-footer{max-width:1000px;margin:0 auto;padding:1.5rem;color:#475569;font-size:.95rem;text-align:center}
-footer a{font-weight:600}
+footer{max-width:none;margin:2rem 0 0;padding:2rem 1rem 2.5rem;color:#475569;font-size:.95rem;text-align:center;background:#fff;border-top:4px solid #4f46e5;box-shadow:0 -4px 20px rgba(30,27,75,.06)}
+footer p{max-width:1000px;margin:.6rem auto}
+footer p:first-child{font-size:1rem}
+footer a{display:inline-block;font-weight:700;text-decoration:none;color:#4338ca;background:#eef2ff;padding:.4rem .9rem;border-radius:999px;margin:.25rem;border:1px solid #e0e7ff}
+footer a:hover{background:linear-gradient(120deg,#4f46e5,#06b6d4);color:#fff;border-color:transparent}
+footer p:last-child{color:#64748b;font-size:.9rem}
 .calc-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:.5rem}
 .calc-grid button{margin:0;border-radius:12px}
 .display{font-size:1.5rem;text-align:right;background:#0f172a;color:#fff;padding:.8rem;border:1px solid #0f172a;border-radius:12px;min-height:3rem;overflow-x:auto}
