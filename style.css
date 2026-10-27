@@ -4,10 +4,10 @@ a{color:#4f46e5}
 a:hover{color:#312e81}
 header{background:linear-gradient(120deg,#1e1b4b,#4338ca 55%,#06b6d4);color:#fff;padding:1.1rem 1rem;box-shadow:0 4px 20px rgba(30,27,75,.25)}
 header a{color:#fff;text-decoration:none}
-nav{display:flex;flex-wrap:wrap;gap:1.1rem;max-width:1000px;margin:0 auto;align-items:center}
+nav{display:flex;flex-wrap:wrap;gap:1.1rem;max-width:1280px;margin:0 auto;align-items:center}
 nav a{font-weight:700;padding:.35rem .6rem;border-radius:999px}
-nav a.logo{display:flex;align-items:center;gap:.5rem}
-nav a.logo img{width:32px;height:32px;border-radius:9px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+nav a.logo{display:flex;align-items:center;gap:.5rem;padding-left:0;margin-right:auto}
+nav a.logo img{width:36px;height:36px;border-radius:9px;box-shadow:0 2px 8px rgba(0,0,0,.25)}
 nav a:first-child{font-size:1.15rem;letter-spacing:-.02em}
 nav a:hover{background:rgba(255,255,255,.18)}
 main{max-width:1000px;margin:2rem auto;padding:2rem;background:#fff;border-radius:20px;box-shadow:0 10px 35px rgba(30,27,75,.10)}
