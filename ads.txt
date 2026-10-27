@@ -1,0 +1,2 @@
+# AdSense ads.txt placeholder — add your real publisher ID here only after AdSense approval.
+# Example format (do not use a fake ID): google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
