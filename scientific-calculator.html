@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Scientific Calculator — Trigonometry, Logs, Powers and Roots</title><meta name="description" content="Free online scientific calculator with trigonometry, logarithms, powers, roots, factorial, memory and Deg/Rad modes, plus a clear guide to using it.">
-<link rel="stylesheet" href="style.css"></head><body><header><nav><a href="index.html">Maths Calculators</a><a href="percentage-calculator.html">Percentage</a><a href="discount-calculator.html">Discount</a><a href="age-calculator.html">Age</a><a href="scientific-calculator.html">Scientific</a><a href="average-calculator.html">Average</a><a href="area-calculator.html">Area</a><a href="time-duration-calculator.html">Time Duration</a></nav></header><main><h1>Scientific Calculator</h1><p>Use the buttons or your keyboard. Switch between degrees and radians for trigonometry. This calculator runs entirely in your browser.</p><!-- AdSense ad slot placeholder — add your real AdSense code here only after approval. No publisher ID is included yet. --><div class="adslot">Advertisement space (added after AdSense approval)</div>
+<link rel="stylesheet" href="style.css"></head><body><header><nav><a href="index.html">Maths Calculators</a><a href="percentage-calculator.html">Percentage</a><a href="discount-calculator.html">Discount</a><a href="age-calculator.html">Age</a><a href="scientific-calculator.html">Scientific</a><a href="average-calculator.html">Average</a><a href="area-calculator.html">Area</a><a href="time-duration-calculator.html">Time Duration</a></nav></header><div class="layout"><main><h1>Scientific Calculator</h1><p>Use the buttons or your keyboard. Switch between degrees and radians for trigonometry. This calculator runs entirely in your browser.</p><!-- AdSense ad slot placeholder — add your real AdSense code here only after approval. No publisher ID is included yet. --><div class="adslot">Advertisement space (added after AdSense approval)</div>
 <div class="toolbox"><div class="display" id="sci-display">0</div><p><span id="sci-mode">Deg</span> · <span id="sci-mem">Memory: 0  Ans: 0</span></p>
 <div class="calc-grid"><button type="button" data-sci="7">7</button><button type="button" data-sci="8">8</button><button type="button" data-sci="9">9</button><button type="button" data-sci="/">/</button><button type="button" data-sci="(">(</button><button type="button" data-sci="sin(">sin(</button><button type="button" data-sci="cos(">cos(</button><button type="button" data-sci="tan(">tan(</button><button type="button" data-sci="4">4</button><button type="button" data-sci="5">5</button><button type="button" data-sci="6">6</button><button type="button" data-sci="*">*</button><button type="button" data-sci="log(">log(</button><button type="button" data-sci="ln(">ln(</button><button type="button" data-sci="√(">√(</button><button type="button" data-sci="1">1</button><button type="button" data-sci="2">2</button><button type="button" data-sci="3">3</button><button type="button" data-sci="-">-</button><button type="button" data-sci="π">π</button><button type="button" data-sci="e">e</button><button type="button" data-sci="^">^</button><button type="button" data-sci="0">0</button><button type="button" data-sci=".">.</button><button type="button" data-sci="%">%</button><button type="button" data-sci="+">+</button><button type="button" data-sci="!">!</button></div>
 <p><button type="button" id="sci-clear">Clear</button> <button type="button" id="sci-back">Backspace</button> <button type="button" id="sci-eq">=</button> <button type="button" id="sci-mode-btn">Deg / Rad</button> <button type="button" id="sci-mplus">M+</button> <button type="button" id="sci-mr">MR</button> <button type="button" id="sci-mc">MC</button></p></div>
@@ -54,4 +54,21 @@ document.addEventListener('DOMContentLoaded',function(){
   document.addEventListener('keydown',function(ev){if(!/^[0-9+\-*/().%^]$/.test(ev.key)&&ev.key!=='Enter'&&ev.key!=='Backspace')return; if(ev.key==='Enter'){sciEval();} else if(ev.key==='Backspace'){sciBack();} else {sciAdd(ev.key==='*'? '*':ev.key);} });
 });
 </script>
-</main><footer><p><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="disclaimer.html">Disclaimer</a></p><p>Maths Calculators — free education tools. Calculators are for learning and everyday estimates; double-check important results.</p></footer><script src="script.js"></script></body></html>
+</main><aside class="sidebar">
+<div class="sidebox"><h3>All Calculators</h3><ul>
+<li><a href="percentage-calculator.html">Percentage Calculator</a></li>
+<li><a href="discount-calculator.html">Discount Calculator</a></li>
+<li><a href="age-calculator.html">Age Calculator</a></li>
+<li><a href="scientific-calculator.html">Scientific Calculator</a></li>
+<li><a href="average-calculator.html">Average Calculator</a></li>
+<li><a href="area-calculator.html">Area Calculator</a></li>
+<li><a href="time-duration-calculator.html">Time Duration Calculator</a></li>
+</ul></div>
+<div class="sidebox"><h3>Popular Guides</h3><ul>
+<li><a href="how-to-calculate-percentage.html">How to Calculate a Percentage</a></li>
+<li><a href="degrees-vs-radians.html">Degrees vs Radians Explained</a></li>
+<li><a href="order-of-operations.html">Order of Operations (BODMAS/PEMDAS)</a></li>
+<li><a href="how-averages-work.html">How Averages Work</a></li>
+</ul></div>
+<div class="sidebox"><h3>About This Site</h3><p>Free maths tools for everyday and school work. Every tool runs in your browser — no sign-up, no downloads, and nothing is sent to a server.</p><p><a href="about.html">More about us</a></p></div>
+</aside></div><footer><p><a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy-policy.html">Privacy Policy</a> · <a href="terms.html">Terms</a> · <a href="disclaimer.html">Disclaimer</a></p><p>Maths Calculators — free education tools. Calculators are for learning and everyday estimates; double-check important results.</p></footer><script src="script.js"></script></body></html>

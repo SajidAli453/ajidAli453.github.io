@@ -9,6 +9,17 @@ nav a{font-weight:700;padding:.35rem .6rem;border-radius:999px}
 nav a:first-child{font-size:1.15rem;letter-spacing:-.02em}
 nav a:hover{background:rgba(255,255,255,.18)}
 main{max-width:1000px;margin:2rem auto;padding:2rem;background:#fff;border-radius:20px;box-shadow:0 10px 35px rgba(30,27,75,.10)}
+.layout{max-width:1280px;margin:2rem auto;padding:0 1rem;display:grid;grid-template-columns:1fr 300px;gap:1.5rem;align-items:start}
+.layout main{margin:0;max-width:none;width:100%}
+.sidebar{position:sticky;top:1rem}
+.sidebox{background:#fff;border:1px solid #e0e7ff;border-radius:16px;padding:1.25rem;margin-bottom:1.25rem;box-shadow:0 6px 20px rgba(99,102,241,.10)}
+.sidebox h3{margin-top:0;color:#312e81}
+.sidebox ul{list-style:none;padding:0;margin:0}
+.sidebox li{margin:.55rem 0}
+.sidebox li a{font-weight:700;text-decoration:none}
+.sidebox li a:hover{text-decoration:underline}
+.sidebox p{color:#475569}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.sidebar{position:static}}
 h1{line-height:1.2;font-size:2.2rem;letter-spacing:-.03em;color:#0f172a}
 h1:after{content:"";display:block;width:64px;height:5px;margin-top:.6rem;border-radius:99px;background:linear-gradient(90deg,#4f46e5,#06b6d4)}
 h2{margin-top:2.2rem;color:#0f172a;letter-spacing:-.02em}
